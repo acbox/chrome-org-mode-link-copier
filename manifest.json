@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Org Mode Link Copier",
+  "version": "1.0",
+  "description": "Copies the current page's URL and title in Org-mode format to the clipboard.",
+  "permissions": ["clipboardWrite", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {}
+}
